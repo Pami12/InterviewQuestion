@@ -1,0 +1,560 @@
+1)Write a program to assign a value of 100.235 to  a valid data type ? 
+   public class AshokIt{
+     public static void main(String[] arr){
+        double d=100.235;
+           System.out.println(d);
+}
+}
+-----------------------------------------------------------------------------
+2)swap  two numbers without using the third varible ?
+
+      public class AshokIt{
+         public static void main(String[]  ar){
+               int x=20;
+                 int y=10;
+                  x = x + y;   
+                  y = x - y;   
+                  x = x - y;  
+
+         System.out.println(x);
+         System.out.println(y);
+}
+}
+---------------------------------------------------------------------------------
+3) What is the size of the Boolean
+
+A) 8 
+B) 4 
+C) 2
+D) Depends on jvm
+---------------------------------------------------------------------------------------
+4)print only even numbers in given array  using control statments in java?
+
+    public class AshokIt{
+                public static void main(String[]  ar){
+             int[] arry={1,2,3,4,5,6,7,8,9,10};
+                         for(int i=0; i<arry.length; i++){  
+                                  if(arry[i]%2==0){
+                                        System.out.println(arry[i]);
+                                     }
+                                   }
+}
+}
+-----------------------------------------------------------------------------------------
+5)Identify the keywords?
+   
+    A) string
+     B) array
+     C) int
+     D)java
+--------------------------------------------------------------------------------------
+6) public class AshokIt{
+   private static void main(String[]  arr){
+   System.out.println("Full Stack java");
+}
+
+A)Full Stack java
+B)CE
+C)RE
+D)It won't compile
+----------------------------------------------------------------------------------- 
+7)Create a class AshokIt, Declare the 2 instance varibles int a, string name. And assign the values by using the constructor. And print the varibles inside the constructor.
+
+   public class AshokIt{
+         int a;
+         String name;
+    public  AshokIt(){
+         a=10;
+         name="java";
+    System.out.println(a+ "--->"+name);
+}  
+   public static void main(String[]  arr){
+          AshokIt data= new AshokIt();
+
+}                
+--------------------------------------------------------------------------------------------
+8)public class AshokIt{
+   public static void main(String[] arr){
+        String name="java";
+        String name2="ashokIt";
+       name.concat(name2);
+System.out.println(name);
+}
+}
+
+A)javaashokit
+B)java
+c)CE
+D)RE
+---------------------------------------------------------------------------------
+9)public class AshokIt{
+public static void main(String[] args) {
+
+		StringBuffer name = new StringBuffer("java");
+		StringBuffer name2 = new StringBuffer("ashokIt");
+		name.append(name2);
+		System.out.println(name);
+	}
+}
+
+A)javaashokit
+B)java
+c)CE
+D)RE
+---------------------------------------------------------------------------------
+10)public class AshokIt{
+public static void main(String[] args) {
+
+		StringBuilder name ="java";
+		StringBuilder name2 ="ashokIt";
+		name.append(name2);
+		System.out.println(name);
+	}
+}
+
+A)javaashokit
+B)java
+c)CE
+D)RE
+-----------------------------------------------------------------------------------------
+12)
+       public class AshokIt{
+	public static void main(String[] args) {
+
+		int a = 20;
+		int b = 22;
+		if ((a < b) && (b++ > 25)) {
+			System.out.println("Welcome to  FullStack");
+		} else {
+			System.out.println("Welcome to Java");
+		}
+	}
+}
+
+
+A)Welcome to  FullStack
+B)Welcome to Java
+C)CE
+D)RE
+----------------------------------------------------------------------------------
+13)public class AshokIt {
+	public static void main(String[] args) {
+
+		if (1 + 1 + 1 + 1 + 1 == 5) {
+			System.out.print("TRUE");
+		} else {
+			System.out.print("FLASE");
+		}
+
+	}
+}
+
+A.TRUE
+B.FALSE
+C.Compiler Error
+D.None of these
+----------------------------------------------------------------------------------------------
+14)public class AshokIt {
+
+		 public static void main(String args[]){
+
+	            System.out.print(""=="");
+
+	            System.out.print(" ");
+
+	            System.out.print("A"=="A");
+
+	            System.out.print(" ");
+
+	            System.out.print("a==A");
+
+	      }
+
+	}
+A. "==" A"=="A a==A
+
+B. true true false
+
+C. true true a==A
+
+D. Compilation Fails
+
+E. None of the above
+
+Answer: Option C
+-----------------------------------------------------------------------------------------------------------------
+15)public class AshokIt {
+
+	public static void main(String args[]) {
+
+		System.out.print(5 + 3 * 2 * 10 * 2*2);
+
+	}
+
+}
+A)245
+b)RE
+C)25
+D)CE
+-----------------------------------------------------------------------------
+16)What is the result of the expression in double end operator when the condition is  true && false in Java?
+
+A. TRUE
+
+B. FALSE
+
+C. TRUE
+
+D. FALSE
+
+-------------------------------------------------------------------
+
+17)Which of the following is not a valid identifier in Java?
+
+A)$test
+B)_test
+C)123test
+D)test123
+-----------------------------------------------------------------
+18)public class AshokIt {
+
+	public static void main(String args[]) {
+
+		int x = 10;
+		int y = 20;
+		int z = x++ + ++y;
+		System.out.println(z);
+
+	}
+
+}
+A)31
+B)32
+C)33
+D)34
+--------------------------------------------------------------------------------------------
+19)public class AshokIt {
+
+	public static void main(String args[]) {
+
+		int i = 0;
+		do {
+			System.out.print(i + " ");
+			i++;
+		} while (i < 3);
+	}
+}
+
+
+A)1 2 3
+B)0 1 2 3
+C)0 1 2
+D)Infinite loop
+
+---------------------------------
+20)public class AshokIt {
+
+	public static void main(String args[]) {
+
+		int a = 7;  
+		int b = 7;  
+		System.out.println((a > b) ? "a is greater than b" : "a is less than or equal to b"); 
+	}
+}
+
+A)(a > b) ? "a is greater than b" : "a is less than or equal to b"
+B)CE
+C)"a is greater than b" 
+D)"a is less than or equal to b"
+-----------------------------------------------------------------------------------------
+21)public class AshokIt{
+    public static void int data(){
+          int a=10;
+          int b=12;
+       System.out.println(a+b);
+            return 0;
+}
+public static void main(String[] ar){
+     AshokIt d=new AshokIt();
+     d.data();
+}
+}
+
+A)22
+B)0
+C)CE
+D)RE
+------------------------------------------------------------------------------------
+22)public class AshokIt {
+	public static int data() {
+		System.out.println("Welcome to ashokit");
+		return "AshokIt";  //Error on line number 1
+	}
+
+	public static void main(String args[]) {
+		new AshokIt().data(); // Error on line number 2
+	}
+}
+A)Welcome to ashokit 
+B)Welcome to ashokit AshokIt
+C)Error on line number 1
+D)Error on line number 2
+------------------------------------------------------------------------------
+23)public class AshokIt {
+	public static String data() {
+		System.out.println("Welcome to ashokit");
+		return "AshokIt";
+	}
+
+	public void abc() {
+
+	}
+
+	public static void main(String args[]) {
+		data();// Line number 1
+		abc(); // line number 2
+	}
+}
+A)Welcome to ashokit 
+B)Welcome to ashokit AshokIt
+C)Error on line number 1
+D)Error on line number 2
+--------------------------------------------------------------------------------------------------------
+24)public class AshokIt {
+	int a = 10;
+
+	public void AshokIt() { //  line 1
+		this.a = 22;
+		System.out.println(a);
+	}
+
+	public static void main(String args[]) {
+		new AshokIt().AshokIt();// Line 2
+	}
+}
+
+A)10
+B)22
+C)Error on Line 1
+D)Error on Line 2
+-----------------------------------------------------------------------------------------
+25)public class AshokIt {
+		int a = 10;
+
+	public AshokIt(int s) { // Earror on line 1
+		this.a = 22;
+		System.out.println(a);
+	}
+
+	public static void main(String args[]) {
+		AshokIt data = new AshokIt(); // Error on Line 2
+	}
+}
+
+A)10
+B)22
+C)Error on Line 1
+D) Error on Line 2
+
+----------------------------------------------------------------------------------------
+26)public class AshokIt {
+	public static void main(String args[]) {
+		String s = "java";
+		String s2 = "java";
+		StringBuffer buffer1 = new StringBuffer("Java");
+		System.out.println(s == s2);
+		System.out.println(s.equals(s2));
+		System.out.println(buffer1.equals(s2));
+
+	}
+}
+
+A)true true true
+B)true true false
+c)java false s2
+d)CE
+---------------------------------------------------------------------------------------------
+27)For below code how you prove string is immutable
+
+public class AshokIt {
+	public static void main(String args[]) {
+		String s = "java";
+		String s2 = "developer";
+         // Select the correct code in below options
+         System.out.println(s);
+	
+	}
+}
+
+A)s.append(s2);
+B)s.immutable(s2);
+c)s.concat(s2);
+d)s+s2;
+
+------------------------------------------------------------------------------
+28) Which operator we need to use to create Object in java?
+
+A)class name
+B)Object refrence
+c)new
+d)instance variable
+-------------------------------------------------------------------------------
+29)Where the below code is going to be store ?
+
+String s = "java";
+String s2 = "developer";
+
+A)Java memory
+B) class memory
+c)SC pool
+d)Heap memory
+-----------------------------------------------------------------------------------------
+30)How many times class will be loaded in java ?
+
+A)2 times.
+B)Object creation time
+C) 1 time.
+D)Depends on code
+----------------------------------------------------------------------------------------------
+31) What is the output of the below code?
+
+public class AshokIt {
+static int count = 0;
+AshokIt() {
+while(count <=10) 
+new AshokIt(++count);
+}
+AshokIt(int x) { 
+super(); 
+}
+public static void main(String[] args) {
+new AshokIt();
+new AshokIt(count);
+System.out.println(count++);
+}
+}
+What is the result?
+A. 9
+B. 10
+C. 11
+D. 12
+E. Compilation fails.
+F. An exception is thrown at runtime
+----------------------------------------------------------------------------------------------------------------
+32)What is the output of the below code ?
+
+public class AshokIt {
+	private static int a = 4;
+
+	public static void main(String[] args) {
+
+		private int x = 6;
+
+		System.out.println(a + x);
+
+	}
+}
+
+A)10
+B)6
+C)4
+D)CE
+---------------------------------------------------------------------------------------------------------
+33) What is the output of the below code
+
+	public class AshokIt {
+	int x = 5;
+
+	public static void main(String[] args) {
+		AshokIt f1 = new AshokIt();
+		AshokIt f2 = new AshokIt();
+		AshokIt f3 = ashokIt(f1, f2);
+		System.out.println((f1 == f3) + " " + (f1.x == f2.x));
+	}
+
+	static AshokIt ashokIt(AshokIt x, AshokIt y) {
+		final AshokIt z = x;
+		z.x = 6;
+		return z;
+	}
+}
+
+A. true true
+B. false true
+C. true false
+D. false false
+E. Compilation fails
+F. An exception is thrown at runtime
+
+------------------------------------------------------------------------------------------------------
+34)What is the result ?
+
+public class AshokIt {
+	public static void main(String[] args) {
+		int i = 42;
+		String s = (i < 40) ? "life" : (i > 50) ? "universe" : "everything";
+		System.out.println(s);
+	}
+}
+
+A. null
+B. life
+C. universe
+D. everything
+E. Compilation fails
+F. An exception is thrown at runtime
+----------------------------------------------------------------------------------------------------------------------
+35)What is the result
+
+
+public class AshokIt {
+	String name;
+
+	AshokIt(String s) {
+		name = s;
+	}
+
+	public static void main(String[] args) {
+		AshokIt d1 = new AshokIt("java");
+		AshokIt d2 = new AshokIt("spring");
+		System.out.print((d1 == d2) + " ");
+		AshokIt d3 = new AshokIt("Oracle");
+		d2 = d1;
+		System.out.print((d1 == d2) + " ");
+		System.out.print((d1 == d3) + " ");
+	}
+}
+A. true true true
+B. true true false
+C. false true false
+D. false true true
+E. false false false
+F. An exception will be thrown at runtime
+----------------------------------------------------------------------------------------------------------------------------------
+36) Can we overload the constructor
+
+    A)Yes
+    B)No
+---------------------------------------------------------------------------------------------------------
+37)Can we Override the static methods
+
+       A)yes
+       B)No
+-----------------------------------------------------------------------------------------------------------
+38)When instance members memory will allocate
+ 
+     A)At the time of class loading
+     B)At the time of Object creation
+     C)At the time of memory creation
+     D)At the time of ClassLoaders 
+----------------------------------------------------------------------------------------------------------
+39)Java is platform dependent ?
+A)Yes
+B)No
+-------------------------------------------------------------------------------------------------------
+40)JVM is platform dependent  ?
+A)Yes  -Right
+B)No
+
+     
+
